@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+/*Header Searchbar*/
+div.col.searchbar{
+  padding-top: 16px;
+  margin: auto;
+  width: auto;
+  max-width: 584px;;
+}
+
+div.searchList {
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+}
+
+div.searchList ul {
+  list-style: none;
+  padding-left: unset;
+}
