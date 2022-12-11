@@ -4,22 +4,22 @@ import CardBlock from './components/CardBlock';
 
 const CardInfo = [{
   "Id": "001",
-  "Name": "TShirt",
-  "Description": "Plain unisex",
+  "Name": "Old nature clips",
+  "Description": "Old nature clips from 80's to 90's",
   "Price": "40",
   "Image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
 },
 {
   "Id": "002",
-  "Name": "Jacket",
-  "Description": "Winter style jacket",
+  "Name": "Nature wonders",
+  "Description": "Watch wonderful nature from around the world",
   "Price": "120",
   "Image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
 },
 {
   "Id": "003",
-  "Name": "Pants",
-  "Description": "Blue denim pants for men",
+  "Name": "Scary weathers",
+  "Description": "Unbelievable weather phenomena",
   "Price": "160",
   "Image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
 }
@@ -33,9 +33,7 @@ const onChange = (event) => {
   setValue(event.target.value);
 }
 
-const onSearch = (searchTerm) => {
-  console.log('search', searchTerm);
-}
+
   
   return (
     <div className="App">
@@ -83,7 +81,7 @@ const onSearch = (searchTerm) => {
             <div className="row">
               <div className="col searchbar">
                 <input className="form-control form-control-lg" id="search" type="text" placeholder="Search" value={value} onChange={onChange}/>
-                <button onClick={()=>onSearch(value)}>Search</button>   
+                  
                 <div className="searchList">
                   <ul>
                   {CardInfo.filter(item => {
