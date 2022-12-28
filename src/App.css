@@ -50,10 +50,8 @@ div.col.searchbar{
 }
 
 div.col.searchbar input:focus{
-color: unset;
-background-color: unset;
-border-color: unset;
-box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 0%);
+  
+box-shadow: none;
 }
 .searchbar div.icon{
   font-size: 25px;

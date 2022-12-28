@@ -22,6 +22,20 @@ const CardInfo = [{
   "Description": "Unbelievable weather phenomena",
   "Price": "160",
   "Image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+},
+{
+  "Id": "004",
+  "Name": "Rainy season",
+  "Description": "Be ready during rainy sesason",
+  "Price": "160",
+  "Image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+},
+{
+  "Id": "005",
+  "Name": "Natural habitats",
+  "Description": "Discover animals natural habitats",
+  "Price": "160",
+  "Image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
 }
 ]
 
@@ -47,6 +61,7 @@ const onChange = (event) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
               <li className="nav-item"><a className="nav-link active" aria-current="page" href="#link">Home</a></li>
+                {/*Menus
               <li className="nav-item"><a className="nav-link" href="#link">About</a></li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#link" role="button" data-bs-toggle="dropdown"
@@ -60,7 +75,9 @@ const onChange = (event) => {
                   <li><a className="dropdown-item" href="#link">New Arrivals</a></li>
                 </ul>
               </li>
+              */}
             </ul>
+            {/*cart
             <form className="d-flex">
               <button className="btn btn-outline-dark" type="submit">
                 <i className="bi-cart-fill me-1"></i>
@@ -68,6 +85,7 @@ const onChange = (event) => {
                 <span className="badge bg-dark text-white ms-1 rounded-pill">0</span>
               </button>
             </form>
+            */}
           </div>
         </div>
       </nav>
